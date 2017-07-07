@@ -4,7 +4,7 @@
 
 ### Example
 
-![hyper-fileio](https://raw.githubusercontent.com/psicotropicos/react-native-tilt/master/gif/react-native-tilt.gif)
+![react-native-tilt](https://raw.githubusercontent.com/psicotropicos/react-native-tilt/master/gif/react-native-tilt.gif)
 
 ### To do
 
