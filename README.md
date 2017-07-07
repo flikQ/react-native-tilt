@@ -1,6 +1,6 @@
 # React Native Tilt
 
-[Tilt](https://github.com/f-hmns/Tilt) for React Native
+Port of [Tilt](https://github.com/f-hmns/Tilt) to React Native
 
 ### Example
 
@@ -12,3 +12,4 @@
 - Perspective
 - Invert axis
 - Remove Expo dependencie
+- Smooth animations
