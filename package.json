@@ -1,0 +1,28 @@
+{
+  "name": "react-native-tilt",
+  "version": "0.0.1",
+  "description": "React Native Tilt Effect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psicotropicos/react-native-tilt.git"
+  },
+  "keywords": [
+    "React",
+    "React Native",
+    "Tilt",
+    "Effect"
+  ],
+  "author": "João Alberto <joaoalberto.contato@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psicotropicos/react-native-tilt/issues"
+  },
+  "homepage": "https://github.com/psicotropicos/react-native-tilt#readme",
+  "dependencies": {
+    "expo": "^18.0.6"
+  }
+}
