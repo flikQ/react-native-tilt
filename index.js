@@ -1,9 +1,10 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import { View } from 'react-native';
 import { Accelerometer } from "expo";
 import Round from './utils/Round';
 
-export default class Tilt extends React.Component {
+class Tilt extends React.Component {
   constructor (props) {
     super(props);
 
@@ -24,10 +25,11 @@ export default class Tilt extends React.Component {
   }
 
   render() {
+    const { children, perspective } = this.props;
     const { x, y } = this.state.gyro;
     const styles = {
       'transform': [
-        { 'perspective': 300 },
+        { 'perspective': perspective },
         { 'rotateX': `${Round(y)}deg` },
         { 'rotateY': `${Round(x)}deg` },
       ]
@@ -35,8 +37,18 @@ export default class Tilt extends React.Component {
 
     return (
       <View style={styles}>
-        { this.props.children }
+        { children }
       </View>
     )
   }
 }
+
+Tilt.defaultProps = {
+  perspective: 300
+}
+
+Tilt.propTypes = {
+  perspective: PropTypes.number
+}
+
+export default Tilt;
