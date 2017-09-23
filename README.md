@@ -8,8 +8,8 @@ Port of [Tilt](https://github.com/f-hmns/Tilt) to React Native
 
 ### To do
 
-- [] Tests
+- [ ] Tests
 - [x] Perspective
-- [] Invert axis
-- [] Remove Expo dependencie
-- [] Smooth animations
+- [ ] Invert axis
+- [ ] Remove Expo dependencie
+- [ ] Smooth animations
