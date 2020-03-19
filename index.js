@@ -17,7 +17,7 @@ class Tilt extends React.Component {
   }
 
   _subscribe () {
-    this.subscription = Accelerometer.addListener((result) => {
+    Accelerometer.addListener((result) => {
       this.setState({
         gyro: result
       });
